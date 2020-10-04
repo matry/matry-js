@@ -1,0 +1,15 @@
+{
+  "name": "matry-js",
+  "version": "0.0.0",
+  "description": "An assortment of Javascript utilities for the Matry language.",
+  "type": "module",
+  "main": "./src/index.js",
+  "author": "Daniel Vaughn",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
