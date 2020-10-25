@@ -60,4 +60,10 @@ const resolve = (expressions, values) => {
   return resolve(expressions, results)
 }
 
-module.exports = resolve
+export {
+  resolve
+}
+
+export default {
+  resolve
+}

@@ -1,9 +1,8 @@
 {
   "name": "matry-js",
   "version": "0.0.0",
-  "description": "An assortment of Javascript utilities for the Matry language.",
+  "description": "A collection of Javascript utilities for the Matry language.",
   "private": true,
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/matry/matry-js"
@@ -11,9 +10,11 @@
   "author": "Daniel Vaughn",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rollup -c"
   },
   "devDependencies": {
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "rollup": "^2.32.1"
   }
 }

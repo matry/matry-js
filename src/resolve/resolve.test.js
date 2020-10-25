@@ -1,4 +1,4 @@
-const resolve = require('./index')
+import resolve from './index'
 
 test('adds two numbers', () => {
   const expressions = {
