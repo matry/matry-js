@@ -14,6 +14,7 @@
     "build": "rollup -c"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.7",
     "jest": "^26.4.2",
     "rollup": "^2.32.1"
   }

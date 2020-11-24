@@ -1,4 +1,4 @@
-import resolve from './index'
+import { resolve } from './index'
 
 test('adds two numbers', () => {
   const expressions = {
