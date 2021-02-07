@@ -1,4 +1,4 @@
-import { resolve } from './resolve/index.js'
+import { resolve } from './resolve'
 
 export default {
   resolve,
