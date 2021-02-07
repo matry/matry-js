@@ -1,0 +1,16 @@
+
+component Button {
+  elements
+    shape container
+    type label
+
+  style container
+    width: 200
+    height: 200
+    fill: #007BFF
+
+  style label
+    font-size: 12
+    font-family: helvetica
+    content: Click Me
+}

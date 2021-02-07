@@ -1,0 +1,15 @@
+
+component Triangle {
+  elements
+    shape path
+
+  properties
+    number width: 100
+    number height: 100
+
+  style path
+    content:
+      $width / 2, 0
+      $width, $height
+      0, $height
+}
